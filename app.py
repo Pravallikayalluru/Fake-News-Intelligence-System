@@ -23,74 +23,118 @@ st.markdown(
 """
 <style>
 
-body{
-    background:#f8fafc;
+body {
+    background-color: #f8fafc;
 }
 
 
-.hero{
+/* Header */
+.hero {
 
-    background:linear-gradient(
+    background: linear-gradient(
         135deg,
         #2563eb,
         #7c3aed
     );
 
-    padding:35px;
-    border-radius:25px;
-    color:black;
+    padding: 35px;
+    border-radius: 20px;
     text-align:center;
+    color:white;
+
 }
 
 
-.hero h1{
+.hero h1 {
 
+    color:white;
     font-size:45px;
-    margin-bottom:10px;
 
 }
 
 
-.hero p{
+.hero p {
+
+    color:#e0e7ff;
+    font-size:18px;
+
+}
+
+
+/* Result Cards */
+
+.result-card {
+
+    background: linear-gradient(
+        145deg,
+        #ffffff,
+        #f1f5f9
+    );
+
+    padding:25px;
+
+    border-radius:20px;
+
+    border:1px solid #e2e8f0;
+
+    box-shadow:
+    0px 8px 25px rgba(0,0,0,0.08);
+
+    text-align:center;
+
+    height:150px;
+
+}
+
+
+.result-card h3 {
+
+    color:#475569;
 
     font-size:18px;
 
 }
 
 
+.result-card h2 {
 
-.card{
+    color:#0f172a;
 
-    background:white;
-    padding:25px;
-    border-radius:20px;
-    text-align:center;
-    box-shadow:
-    0px 5px 20px rgba(0,0,0,0.1);
+    font-size:30px;
+
+    font-weight:700;
 
 }
 
 
 
-.stButton button{
+/* Button */
+
+.stButton button {
 
     width:100%;
-    height:50px;
-    border-radius:12px;
+
     background:#2563eb;
+
     color:white;
+
+    border-radius:12px;
+
+    height:50px;
+
     font-size:18px;
+
     font-weight:bold;
 
 }
 
 
+.stButton button:hover {
 
-.stTextArea textarea{
-
-    border-radius:15px;
+    background:#1d4ed8;
 
 }
+
 
 
 </style>
@@ -98,8 +142,6 @@ body{
 """,
 unsafe_allow_html=True
 )
-
-
 
 # ==============================
 # HEADER
