@@ -38,7 +38,7 @@ body{
 
     padding:35px;
     border-radius:25px;
-    color:white;
+    color:black;
     text-align:center;
 }
 
