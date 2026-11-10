@@ -1,5 +1,9 @@
-streamlit
-pandas
 numpy
+pandas
+scipy
 scikit-learn
 textblob
+joblib
+matplotlib
+streamlit
+kagglehub
