@@ -1,0 +1,30 @@
+{
+  "table": [
+    {
+      "setup": "Style only",
+      "accuracy": 70.4,
+      "f1_fake": 70.59
+    },
+    {
+      "setup": "Text only (raw)",
+      "accuracy": 92.03,
+      "f1_fake": 92.26
+    },
+    {
+      "setup": "Hybrid (raw)",
+      "accuracy": 92.03,
+      "f1_fake": 92.14
+    },
+    {
+      "setup": "Text only (masked)",
+      "accuracy": 91.4,
+      "f1_fake": 91.65
+    },
+    {
+      "setup": "Hybrid (masked)",
+      "accuracy": 91.63,
+      "f1_fake": 91.74
+    }
+  ],
+  "shortcut_gap": 0.4
+}
